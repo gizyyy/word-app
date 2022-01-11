@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Here are the words you have:</h4>
+      <div class="list-group" *ngFor="let item of wordList">
+        <a
+          href="#"
+          (click)="showDetail(item)"
+          class="list-group-item list-group-item-action"
+          >{{ item.name }}</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<hr />
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-word-detail [selectedWord]="selectedWord"></app-word-detail>
+    </div>
+  </div>
+</div>
