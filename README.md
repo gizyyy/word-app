@@ -1,5 +1,7 @@
 # WordApp
 
+A form submition and data pass(parent to child, child to parent) example with service injection. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
